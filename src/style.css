@@ -1,0 +1,24 @@
+* {
+    border: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+#container {
+    position: relative;
+    height: 0px;
+}
+
+#ui {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+}

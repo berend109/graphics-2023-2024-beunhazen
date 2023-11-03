@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beunhazen project</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+
+    <div id="container">
+      <canvas id="canvas"></canvas>
+      <div id="ui">
+        <button id="shipScene">ShipScene</button>
+        <button id="bridgeScene">BridgeScene</button>
+        <button id="cubeScene">CubeScene</button>
+        <button id="bounceBallScene">BounceBallScene</button>
+      </div>
+    </div>
+
+    <script async src="https://unpkg.com/es-module-shims@1.8.0/dist/es-module-shims.js"></script>
+    <!-- voor de fishscene -->
+		<script type="importmap" id="hophop"></script>
+    <canvas id=".scene"></canvas>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
